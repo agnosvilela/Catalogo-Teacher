@@ -1,0 +1,91 @@
+*{
+font-family: 'Inter', sans-serif;
+}
+
+body{
+margin: 0;
+padding:0;
+}
+/*===========conteudo cabeçalho==============*/
+header{
+height: 25vh;
+display: flex;
+flex-direction: column; 
+align-items: center;
+justify-content: center;
+background-color: #d7f0f3;
+}
+.logo{
+margin-bottom: 2rem;
+}
+
+
+/*===========conteudo principal==============*/
+main{
+background-color: #65a6bb;
+padding-top: 8rem ;
+padding-bottom:8rem ;
+}
+
+
+
+.teacher-container{
+max-width: 450px;
+padding: 10px;
+margin: 0 auto;
+margin-bottom: 5rem;
+text-align: center;
+padding: 10px;
+
+}
+.description{
+font-size: 18px;
+
+}
+/* tamanho maximo da secção - esta dentro de teacher container
+ e vai ocupar o espaço de onde ele estar
+*/
+.teacher-img{
+width: 100%;
+margin-bottom: 1rem;
+border-radius: 10px;
+}
+.teacher-name{
+font-weight: 900;
+}
+.teacher-price{
+font-weight: 700;
+color: #f52273;
+}
+.teacher-description{
+margin-top: 2rem;
+margin-bottom: 2rem;
+}
+.teacher-contract{
+display: flex;
+justify-content: space-between;
+}
+.teacher-contract-hours{
+width: 48%;
+color: #565656;
+background-color:#e1eaea ;
+outline: none;
+border: 1px solid #c4c4c4;
+padding: 1rem 0;
+text-align: center;
+}
+.teacher-contract-button{
+width: 48%;
+color: white;
+background-color: #f52273;
+border: none;
+font-weight: 900;
+transition: background-color 0.5s;
+}
+.teacher-contract-button:hover{
+background-color: #cd1c60;
+}
+
+footer{
+text-align: center;
+}

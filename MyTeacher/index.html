@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&family=Poppins:wght@200;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./static/css/style.css">
+    <title>MyTeacher</title>
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="./static/imagens/logo_myteacher.png" alt=" do site Myteacher">
+        <span class="mensagem-logo">Chegou a hora de você deixar a dança contagiar a sua festa, faça ja o seu orçamento.
+        </span>
+    </header>
+    <main>
+        <section class="teacher-container">
+            <img class="teacher-img" src="./static/imagens/fotho.jpg" alt="foto do professor">
+            <p><strong class="teacher-name">Agnos Vilela</strong></p>
+            <p class="teacher-price">R$ 100,00 por hora</p>
+            <p class="description">Tenha a melhor animação com dança para a sua festa. Aniversários, comemoraçôes,
+                Condomínio, Empresas privada, Recreação infantil e muito mais.. </p>
+
+            <form class="teacher-contract">
+                <input name="price" type="hidden" value="100">
+                <input required min="1" max="3" name="hours" class="teacher-contract-hours" type="number"
+                    placeholder="Quantidade de horas">
+                <button type="submit" class="teacher-contract-button">Calcular Valor Total</button>
+            </form>
+        </section>
+    </main>
+    <script src="./static/js/script.js"> </script>
+    <footer>
+        <h3>Desenvolvido por Agnos Vilela </h3>
+    </footer>
+
+</body>
+
+</html>
